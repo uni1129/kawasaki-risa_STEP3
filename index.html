@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test.html</title>
+    <link rel="stylesheet" href="test.css">
+  </head>
+  <body>
+    <header>
+      <h2>世界一甘いお店</h2>
+    </header>
+
+    <main>
+      <nav>
+        <ul>
+          <li><a href="https://jp.pinterest.com/">トップ</a></li>
+          <li><a href="https://github.com/">新着情報</a></li>
+          <li><a href="https://jp.pinterest.com/">おすすめのスイーツ</a></li>
+          <li><a href="https://github.com/">お問合せ</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <table border="4">
+          <tr>
+            <th>お名前</th>
+            <td><input type="text" size="40" /></td>
+          </tr>
+
+          <tr>
+            <th>お近くのお店</th>
+            <td>
+              <label size="40">
+                <select>
+                  <option>北海道・東北</option>
+                  <option>関東</option>
+                  <option>中部</option>
+                  <option>関西</option>
+                  <option>中国・四国</option>
+                  <option>九州・沖縄</option>
+                </select>
+              </label>
+            </td>
+          </tr>
+
+          <tr>
+            <th>電話</th>
+            <td>
+              <input type="text" size="40" />
+            </td>
+          </tr>
+          <tr>
+            <th>電話番号</th>
+            <td>
+              <input type="text" size="40" />
+            </td>
+          </tr>
+          <tr>
+            <th>メールアドレス</th>
+            <td><input type="text" size="40" /></td>
+          </tr>
+
+          <tr>
+            <th>お問合せ種別</th>
+            <td>
+              <label><input type="radio" name="items" />商品について</label>
+              <label><input type="radio" name="items" />従業員について</label>
+            </td>
+          </tr>
+          <tr>
+            <th>お問合せ内容</th>
+            <td>
+              <textarea
+                placeholder="詳細を入力してください"
+                cols="30"
+                rows="5"
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+
+        <div>
+          <button>送信</button>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
